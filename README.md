@@ -18,8 +18,7 @@ Users can register, log in, create tasks, filter tasks (completed/incomplete), a
 
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone repo_name
 
 ### 1. Set up backend
 cd backend
