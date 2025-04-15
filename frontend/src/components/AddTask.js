@@ -43,7 +43,6 @@ const AddTask = ({currentTask, fetchTasks, setShowForm, setCurrentTask}) => {
             fetchTasks();
             setShowForm(false);
             setCurrentTask(null);
-            navigate('/')
         }
     }catch(error){
         console.log(error)
@@ -67,7 +66,6 @@ const AddTask = ({currentTask, fetchTasks, setShowForm, setCurrentTask}) => {
                     fetchTasks();
                     setShowForm(false);
                     setCurrentTask(null);
-                    navigate('/')
                 }
             }catch(error){
                 console.log(error)
