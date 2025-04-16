@@ -21,9 +21,13 @@ Users can register, log in, create tasks, filter tasks (completed/incomplete), a
 git clone https://github.com/Deva52500/Task-Management-App.git
 cd Task-Management-App
 
-### 1. Set up backend
+### 1. Install MongoDB 
+Link: https://www.mongodb.com/try/download/community
+
+### 2. Set up backend
 cd backend
 npm install
+npm start
 
 Create a .env file in the backend folder and add:
 
@@ -31,8 +35,9 @@ MONGO_URI= mongodb_connection_string
 JWT_SECRET= jwt_secret_key
 PORT=5000
 
-### 2. Set up the frontend
+### 3. Set up the frontend
 cd frontend
 npm install
+npm start
 
 Browser opens at http://localhost:3000/login
